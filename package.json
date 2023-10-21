@@ -1,14 +1,19 @@
 {
-  "name": "three-js-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "three-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.157.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
   "dependencies": {
-    "three": "^0.154.0"
+    "three": "^0.157.0"
   }
 }
